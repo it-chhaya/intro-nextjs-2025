@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
+import AppMenu from "@/components/appmenu/AppMenu";
 
 export const metadata: Metadata = {
   title: "My First Next App",
@@ -16,6 +17,7 @@ export default function RootLayout({
       <body
         className={`antialiased`}
       >
+        <AppMenu />
         {children}
       </body>
     </html>

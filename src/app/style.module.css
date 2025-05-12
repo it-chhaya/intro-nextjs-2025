@@ -1,0 +1,13 @@
+.textBrand {
+    font-family: 'Courier New', Courier, monospace;
+    color: darkorange;
+    font-weight: bolder;
+}
+
+.text-red {
+    color: red;
+}
+
+.font-bold {
+    font-weight: bold;
+}

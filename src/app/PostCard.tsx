@@ -1,3 +1,5 @@
+import myStyle from './style.module.css'
+
 export type PostResponse = {
     id: number;
     userId: number;
@@ -23,7 +25,7 @@ export default function PostCard({
                 </div>
 
                 <div className="mt-4 sm:mt-0">
-                    <h3 className="text-lg font-medium text-pretty text-gray-900">
+                    <h3 className={`${myStyle.textBrand} text-lg font-medium text-pretty text-gray-900`}>
                         {title}
                     </h3>
 
